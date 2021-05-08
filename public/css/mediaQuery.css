@@ -1,0 +1,177 @@
+#menu-bar{
+    top: 17px;
+    font-size: 23px;
+    position: absolute;
+    right: 10px;
+
+    display: none;
+
+}
+
+@media screen and (max-width:991px) {
+    #menu-bar {
+        display: block;
+        float: right;
+      
+    }
+    nav ul li {
+        display: none;
+    }
+    main>.para1>p{
+        margin: 0px 9em;
+    }
+   
+    #features{
+        flex-direction: column;
+    }
+    .left-side {
+        margin-bottom: 3%; 
+    }
+    .imgside{ 
+           width: 19.5%;
+    }
+  .link{
+    flex-basis: 46%;
+    }
+   .links{
+    width: 56%;
+    }
+   .p1{
+     width: 100%;
+      position: relative;
+      width: 44%;
+    }
+    #port-images img{
+        flex-wrap: wrap;
+    }
+    #userdetails {
+        display: block;
+    }
+    #info {
+        margin-bottom: 6em;
+        text-align: center;
+    }
+    
+    .text-area>p {
+        width: 70%;
+    }
+    #person1, #person2, #person3 {
+        margin: 0 auto;
+    }
+   
+    .workers {
+        margin: 2em auto;
+        width: 100%;
+        flex-wrap: wrap;
+       }
+       .prices{
+        margin-bottom: 3em;
+        width: 47%;
+       }
+       #pricetag{
+               flex-wrap: wrap;
+           width: 100%;
+       }
+      
+       
+}
+
+
+
+@media screen and (max-width:767px) {
+
+    #menu-bar {
+        display: block;
+        float: right;
+      
+    }
+    #port-images{
+    margin: 2em auto;
+    flex-direction: column;
+    width: 72%;
+    }
+     .workers {
+     flex-direction: column;
+    }
+    main>.para1>p {
+        margin: 0px 2em;
+    }
+     .right-side{
+        display: flex;
+        flex-direction: column;
+       width: 63%;
+       margin:  1em auto;
+       justify-content: space-around;
+    } 
+   .homeimg{
+    width: 82%;
+    margin-bottom: 2%;
+   }
+.details{
+    margin: 0 auto;
+    /* width: 35%; */
+    flex-basis: 98%;
+}
+.upper_part{
+flex-direction: column;
+}
+.progress-bar {
+    flex-basis: 40%;
+}
+
+
+#port-images {
+    margin: 0 auto;
+    width: 56%;
+}
+.p1{
+    width: 101%;
+}
+.imgside {
+    width: 27%;
+    /* margin-right: -4%; */
+    margin-left: 3%;
+
+}
+.left-service>p {
+    width:90%;
+}
+.link{
+    flex-basis: 47%;
+}
+.offer_text>p{
+    
+width: 86%;
+}
+
+form>.basic_info>input{
+    height: 3em;
+    width: 71%;
+}
+#userForm >form{
+    display: flex;
+    flex-direction: column;
+}   
+textarea{
+    width: 92%;
+}
+form>label {
+    margin-top: 8%;
+    margin-bottom: -2%;
+}
+#message{
+    margin-top: 12%;
+}
+.basic_info{
+    margin: 1em auto;
+    width: 56%;
+}
+.space{
+    margin-right: 2%;
+}
+} 
+@media screen and (min-width:991px) {
+    .hidden-part{
+        display: none;
+    }
+}

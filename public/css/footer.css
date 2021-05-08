@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    padding-top: 2em;
+    display: flex;
+    color: #9C9C9C;
+    background: #f6f6f6;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+#footer-text>p{
+  margin: 0;
+}
+#logo-footer{
+flex-basis: 20%;
+}
+#footer-text{
+flex-basis: 64%;
+}

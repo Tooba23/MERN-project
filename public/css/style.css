@@ -1,0 +1,210 @@
+/* @import url("Task/index2.html");
+@import url("Task/app.js"); */
+
+
+/* //@import url('Task/style2.css'); */
+
+@import url("./Home.css");
+@import url("./Portfolio.css");
+@import url("./Services.css");
+@import url("./PPRICINGOFFER.css");
+@import url("./ABOUT US.css");
+@import url("./FORM.css");
+@import url("./footer.css");
+@import url("./mediaQuery.css");
+@import url("./styles/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@700&family=Fjalla+One&family=News+Cycle&&family=Overlock&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Lato:400,300,700,900");
+html {
+    background-color: #f6f6f6;
+    color: #7a7878;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cabin Condensed", sans-serif;
+}
+
+* {
+    font-family: "Overlock", cursive;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    width: 81%;
+    background-color: #f6f6f6;
+}
+
+#logo {
+    flex-basis: 40%;
+    font-size: 27px;
+}
+
+#logo h2 {
+    margin: 11px 0;
+    font-family: "Fjalla One", sans-serif;
+}
+
+nav {
+    flex-basis: 60%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+nav ul li {
+    flex-basis: 18%;
+    margin-top: 4px;
+    width: 20%;
+    margin-right: 2em;
+    font-size: 19px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #ddcbad;
+    border-bottom: 2px solid #7a7878;
+    transition: color linear 0.5s, border-bottom linear 0.5s;
+}
+
+#main-img {
+    width: 100%;
+    opacity: 0.7;
+    height: 34em;
+}
+
+#main-img img {
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    margin-left: 2%;
+    font-size: 20px;
+    width: 76%;
+    /* width: 100%; */
+    position: absolute;
+    /* bottom: 0; */
+    height: 100%;
+    height: 19em;
+    padding-top: 3%;
+    /* left: 8em; */
+    text-align: center;
+    top: 5em;
+    background: #ababab82;
+    color: #f6f6f6 !important;
+    /* top: 91px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+aside>h3 {
+    padding-top: 13%;
+    margin: 0;
+    font-size: 35px;
+    text-align: center;
+    color: #f6f6f6 !important;
+}
+
+aside>p {
+    color: #f6f6f6 !important;
+}
+
+.hidden-part {
+    width: 163px;
+    top: 69px;
+    background: #4e4a52;
+    /* width: 0; */
+    color: white;
+    height: 0;
+    overflow: hidden;
+    font-size: 17px;
+    position: absolute;
+    right: 11px;
+    transition: all 0.5s linear;
+}
+
+.invisible {
+    height: 18em;
+}
+
+
+/* .anim{
+    transform: translate(0px,30px);
+    transition: transform 500ms linear ;
+
+} */
+
+
+/* .visible{
+    display: block;
+    transition: 0.5s ;
+} */
+
+.hidden-part ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hidden-part ul li {
+    margin-top: 1em;
+    padding: 2% 0;
+    /* margin-bottom: 0%; */
+    width: 99%;
+    /* margin-top: 1em; */
+    text-align: center;
+}
+
+.hidden-part ul li:hover {
+    transform: scale(1.3);
+    overflow: hidden;
+    color: black !important;
+    background-color: #a19ea499;
+    transition: all 500ms linear;
+}
+
+.hidden-part ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.crossSign {
+    display: inline-block;
+    top: 0px;
+    position: absolute;
+    /* width: 100%; */
+    right: 12px;
+    margin-bottom: 0em;
+    font-size: 1.5em;
+}
+
+.crossSign>i {
+    color: #b1b1b1;
+}
+
+.crossSign>i:hover {
+    color: white;
+}

@@ -1,0 +1,140 @@
+main{
+    width: 91%;
+    border-bottom: 1px solid #7a7878;
+    padding: 0 1em;
+    margin: auto 2em;
+    right: calc(50% - 42%);
+}
+
+    
+main>h2{
+    text-align: center;
+}
+main>.para1{
+    display: inline;
+    text-align: center;
+    margin: 3em 0;
+}
+main>.para1>p{
+    margin: 37px 4em
+}
+#features{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    margin: 2em 0;
+}
+.left-side{
+   
+    margin-right: 1em;
+    flex-basis: 29%;
+}
+.right-side{
+    width: 100%;
+    overflow: hidden;
+    flex-basis: 70%;
+    height: 100%;
+
+}
+.right-side  img{
+    width: 99%;
+    background-repeat: no-repeat;
+    height: 12em;
+    border: 1px solid transparent;
+    flex-basis: 30%;
+    z-index: 2;
+    overflow: hidden;
+
+}
+.homeimg{
+    
+    width: 31%;
+    margin-right: 11px;
+    height: 91%;
+    display: -webkit-inline-box;}
+.homeimg:hover .imgside{
+display: block;
+}
+
+.imgside{
+   
+    padding-bottom: 4.5em;
+    background-color: #fdfcff8f;
+    margin-top: -185px;
+    /* left: 44.5em; */
+    margin-left: 10px;
+    display: none;
+    /* margin-bottom: -4em; */
+    /* height: 17%; */
+    position: absolute;
+    /* top: 191px; */
+    width:14%;
+   
+}
+.imgside>p{
+    text-align: center;
+     opacity: 1; 
+}
+.imgside>h5{
+    text-align: center;
+}
+.homeimg:hover .imgside{
+ display: block;
+ 
+}
+.homeimg:hover .imgside>p{
+    display: block;
+}
+.left-side>i ,.left-side>h4{
+   color: #DBC5A1;
+}
+.left-side i:hover{
+   transform: translate(10px);
+}
+.right-side .homeimg:hover .imgside{
+    box-sizing: border-box;
+}
+ 
+#img1{
+    display: none;
+   height:  50%;
+    background-color: royalblue;
+    position: absolute;
+    width: 16%;
+    top: 43.7em;
+    text-align: center;
+    padding-top: 3em;
+}
+ .img-right2 img:hover #img2{
+    display:block;
+}
+/* .right-side img:hover #img2{
+    display: block;
+} */
+/* .right-side img:hover #img3{
+    display: block;
+} */
+#img2{
+    background-color: royalblue;
+    display: none;
+    width: 16.2%;
+    height:  50%;
+    top: 43.7em;
+    position: absolute;
+    left: 44em;
+    text-align: center;
+    padding-top: 3em;
+
+}
+#img3{
+    background-color: royalblue;
+    display: none;
+ text-align: center;
+ padding-top: 3em;
+    width: 16%;
+    height:  50%;
+    top: 43.7em;
+    position: absolute;
+    left: 58em;
+ 
+}

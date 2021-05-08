@@ -1,0 +1,80 @@
+#details{
+    margin: 2em 3em;
+}
+
+#userdetails{
+    display: flex;
+    margin-top: 3em;
+}
+#info{
+    flex-basis: 40%;
+   
+}
+#userForm{
+    flex-basis: 60%;
+    /* margin-top: 3em; */
+    width: 100%;
+    height: 100%;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+#address{
+    margin-bottom: 2em;
+}
+form > .basic_info input{
+    padding-left: 1em;
+    flex-basis: 26%;
+    /* margin-left: -2.5em; */
+    padding-top: -4px;
+    height: 3em;
+    margin-bottom: 2em;
+    color: #7a7878;
+    width: 71%;
+
+}
+form>label{
+        /* font-size: 16px; */
+        position: relative;
+        top: -2em;
+        /* margin-bottom: 2px; */
+        width: 15%;
+        left: 21px;
+        height: 1em;
+        
+}
+textarea{
+    margin-bottom: 2em;
+    width: 77%;
+    color: #7a7878;
+    margin-left: 58px;
+
+}
+#message{
+    display: flex;
+    margin-top: 5%;
+
+    margin-left: 1em;
+    flex-direction: column;
+}
+#btn button{
+    border: 1px solid;
+    color: #7a7878;
+    margin-left: 4em;
+    padding: 4px 18px;
+    background-color: transparent;
+}
+label{
+    margin-bottom: 1em;
+
+}
+.space{
+    margin-right: 2%;
+}
+#btn button:hover{
+    color: #dbc5a1;;
+}
+.basic_info{
+    margin: 1em auto;
+    width: 95%;}

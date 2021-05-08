@@ -1,0 +1,36 @@
+#services{
+    margin: 1em 2em;
+    padding-top: 1em;
+
+}
+.left-service>p{
+    width: 47%;
+}
+#comapanyService{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.link{
+  
+    flex-basis: 23%;
+    /* margin-top: 1em; */
+    margin: 19px 8px;
+    width: 100%;
+}
+.link h4{
+    display: inline-block;
+    /* padding-left: 1em; */
+    /* margin: 0; */
+    margin-left: 11px
+}
+.left-service{
+    margin-left: 14px;
+    margin-bottom: 2em;
+}
+.link i:hover{
+    color: #d0d0ab;;
+}
+/* .link>p{
+    width: 20%;
+} */
